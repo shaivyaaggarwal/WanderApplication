@@ -1,0 +1,35 @@
+.loading-indicator{
+	position : fixed;
+	height : 100%;
+	width : 100%;
+	top : 0;
+	left : 0;
+	text-align : center;
+	background-color : rgba(0,0,0,0.5);
+	color : #FFF;
+}
+
+.loading-indicator .hide{
+	display : none;
+}
+
+.loading-indicator .loading-text{
+	width : 100px;
+	text-align : center;
+	padding : 10px;
+	border : 2px solid #FFF;
+	background-color : #000;
+	position : absolute;
+	top : 30%;
+	left : 30%;
+	margin-left : -50px;
+}
+
+.fork-img{
+	position : absolute;
+	top : 0;
+	right : 0;
+	border : 0;
+	z-index : 10000;
+}
+
